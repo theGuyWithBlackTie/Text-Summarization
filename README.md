@@ -21,5 +21,8 @@ Depending on the articles'content, the accuracy achieved is from 55% to 80%. Bei
 
 ## Using the Text Summarizer Code
 The `main.py` file initiates the code execution. This file calls the other modules (which are memtioned in the Execution Steps section).
-Explicitly change in `main.py` value of variable `nGramNumber` to use uni-gram, bi-gram, tri-gram and so on.
-On the similar lines, you can choose how many sentences you want to retain in the summary from the original text by giving values from 0 to 1 in code line `noOfSentences = 0.50*len(tokenizedSentence)` in `main.py` file.
+Explicitly change in `main.py` value of variable `nGramNumber` to use uni-gram, bi-gram, tri-gram and so on.  
+
+On the similar lines, you can choose how many sentences you want to retain in the summary from the original text by giving values from 0 to 1 in code line `noOfSentences = 0.50*len(tokenizedSentence)` in `main.py` file.  
+
+Original text need to be kept in oe file; file path mentioned in `main.py`file. And the output is given in another output file again mentioned in `main.py`file. Both files path/name can be changed at willingly.
