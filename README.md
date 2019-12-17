@@ -25,4 +25,4 @@ Explicitly change in `main.py` value of variable `nGramNumber` to use uni-gram, 
 
 On the similar lines, you can choose how many sentences you want to retain in the summary from the original text by giving values from 0 to 1 in code line `noOfSentences = 0.50*len(tokenizedSentence)` in `main.py` file.  
 
-Original text need to be kept in oe file; file path mentioned in `main.py`file. And the output is given in another output file again mentioned in `main.py`file. Both files path/name can be changed willingly.
+Original text need to be kept in file; file path mentioned in `main.py`file. And the output is given in another output file again mentioned in `main.py`file. Both files path/name can be changed willingly.
